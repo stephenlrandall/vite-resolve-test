@@ -1,5 +1,5 @@
 <script>
-    import mathjs from "mathjs";
+    import { pi } from "mathjs";
 </script>
 
-Hello! I sometimes cause issues.
+π = {pi}

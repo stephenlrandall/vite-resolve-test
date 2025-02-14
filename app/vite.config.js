@@ -7,5 +7,10 @@ export default defineConfig({
 	plugins: [
 		sveltekit(),
 		nodeResolve({ modulePaths: [path.resolve('./node_modules')] })
-	]
+	],
+	resolve: {
+		alias: {
+			"$external": path.resolve("../external")
+		}
+	}
 });
